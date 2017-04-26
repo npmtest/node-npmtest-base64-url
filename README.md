@@ -1,6 +1,6 @@
 # npmtest-base64-url
 
-#### test coverage for  [base64-url (v1.3.3)](https://github.com/joaquimserafim/base64-url)  [![npm package](https://img.shields.io/npm/v/npmtest-base64-url.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-base64-url) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-base64-url.svg)](https://travis-ci.org/npmtest/node-npmtest-base64-url)
+#### basic test coverage for  [base64-url (v1.3.3)](https://github.com/joaquimserafim/base64-url)  [![npm package](https://img.shields.io/npm/v/npmtest-base64-url.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-base64-url) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-base64-url.svg)](https://travis-ci.org/npmtest/node-npmtest-base64-url)
 
 #### Base64 encode, decode, escape and unescape for URL applications
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-base64-url/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-base64-url/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-base64-url/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-base64-url/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-base64-url/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-base64-url/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-base64-url/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-base64-url/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-base64-url/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-base64-url/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-base64-url/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-base64-url/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
         "style": "jscs -p google *.js",
         "test": "istanbul cover tape test.js"
     },
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
